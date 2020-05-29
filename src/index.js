@@ -134,7 +134,7 @@ handleChange = (selectedOption) => {
     return(
 	<div id="main">
                <div className="sizes">
-			   <h4 className="title">Sizes:</h4>
+			   <h4 className="title">Filter Size:</h4>
 			   		{this.state.sizes.map(this.getSizeButton)}
 			   </div>
          <div className="right-side">
